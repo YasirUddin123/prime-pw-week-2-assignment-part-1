@@ -99,10 +99,11 @@ switch(v2mostPets){
     console.log(v2MostPets);
 }
 
-//testing a commit
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 let mostPets;
 pets > friendsPets ? (mostPets = pets, console.log(mostPets)):
 friendsPets > pets ? (mostPets = friendsPets, console.log(mostPets)):
 pets == friendsPets ? (mostPEts = pets || friendsPets, console.log(mostPets))
+
+//This was my attempt!
