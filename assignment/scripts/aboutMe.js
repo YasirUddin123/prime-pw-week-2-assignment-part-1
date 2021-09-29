@@ -75,14 +75,12 @@ if(pets < allowedPets){
 let mostPets;
 if(pets > friendsPets){
   mostPets = pets;
-  console.log(mostPets);
 } else if(friendsPets > pets){
   mostPets = friendsPets;
-  console.log(mostPets);
 } else {
-  mostPets = pets || friendsPets;
-  console.log(mostPets);
+  mostPets = pets;
 }
+  console.log(mostPets);
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
@@ -91,15 +89,17 @@ switch(v2mostPets){
   case pets > friendsPets:
     v2MostPets = pets;
     console.log(v2MostPets);
-
+    break;
   case friendsPets > pets:
     v2MostPets = friendsPets;
     console.log(v2MostPets);
-
+    break;
   default:
     v2MostPets = pets;
     console.log(v2MostPets);
 }
+
+//testing a commit
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 let mostPets;
