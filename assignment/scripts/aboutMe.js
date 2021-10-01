@@ -48,7 +48,7 @@ if(adventurous){
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if(luckyNumber === 2 && adventurous){
+if(luckyNumber == 2 && adventurous){
     console.log('Roll the dice!');
 }
 
@@ -59,9 +59,9 @@ if(luckyNumber === 2 && adventurous){
 // if the value of `pets` is greater than the value of `allowedPets`.
 if(pets < allowedPets){
   console.log('I can have more pets!');
-} else if (pets === allowedPets) {
+} else if (pets == allowedPets) {
   console.log('I have enough pets');
-} else {
+} else if (pets > allowedPets){
   console.log('Oh no, I have too many pets!');
 }
 
@@ -101,3 +101,4 @@ switch(v2MostPets){
 
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+adventurous === true ? console.log('Adventures are great!') : console.log('How about we stay home?');
