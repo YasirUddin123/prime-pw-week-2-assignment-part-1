@@ -30,10 +30,10 @@ let food = 'gyro';
 let pets = 0;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 1;
+let friendsPets = 100;
 
 // 11 - Add two pets to your `pets` variable
-pets += 2;
+pets += 100;
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 10;
@@ -84,8 +84,9 @@ if(pets > friendsPets){
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
+
 let v2MostPets = 0;
-switch(v2MostPets){
+switch(true){
   case pets > friendsPets:
     v2MostPets = pets;
     console.log(v2MostPets);
@@ -98,7 +99,9 @@ switch(v2MostPets){
     v2MostPets = pets;
     console.log(v2MostPets);
 }
-
+//I had a study session with Selam on this problem, Selam is awesome!
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 adventurous === true ? console.log('Adventures are great!') : console.log('How about we stay home?');
+
+//I had a study session with Selam on this problem, Selam is awesome!
