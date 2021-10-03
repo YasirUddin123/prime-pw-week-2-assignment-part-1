@@ -30,10 +30,10 @@ let food = 'gyro';
 let pets = 0;
 
 // 10 - Create a variable called `friendsPets` and assign it the value of the number of pets your friend has
-let friendsPets = 100;
+let friendsPets = 3;
 
 // 11 - Add two pets to your `pets` variable
-pets += 100;
+pets += 2;
 
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
 const allowedPets = 10;
@@ -75,12 +75,15 @@ if(pets < allowedPets){
 let mostPets;
 if(pets > friendsPets){
   mostPets = pets;
+  console.log(mostPets);
 } else if(friendsPets > pets){
   mostPets = friendsPets;
+  console.log(mostPets);
 } else {
   mostPets = pets;
-}
   console.log(mostPets);
+}
+
 
 // 17 - Rewrite question 16 with a `switch` statement. You'll need to do research!
 
